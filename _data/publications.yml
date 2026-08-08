@@ -1,0 +1,145 @@
+# Publications, newest first. "G. Franco Abellán" is bolded automatically
+# wherever it appears in `authors` (see _includes/section-publications.html).
+# Source of truth: https://inspirehep.net/authors/1890429
+
+- year: 2026
+  title: "Neutrino decays as a natural explanation of the neutrino mass tension"
+  authors: ["G. Franco Abellán"]
+  journal: "Phys. Rev. D"
+  arxiv: "2601.04312"
+
+- year: 2026
+  title: "Cosmology in the Einstein Telescope era: comparing traditional and simulation-based methods for population inference"
+  authors: ["G. Antinozzi", "G. Franco Abellán", "D. Sciotti", "M. Martinelli"]
+  arxiv: "2608.04005"
+
+- year: 2025
+  title: "Impact of neutrino decays on the Cosmic Neutrino Background anisotropies"
+  authors: ["N. Terzaghi", "G. Franco Abellán", "F. Zimmer", "S. Ando"]
+  arxiv: "2510.15818"
+
+- year: 2025
+  title: "Euclid preparation. XCVIII. Cosmology Likelihood for Observables in Euclid (CLOE). 5: Extensions beyond the standard modelling of theoretical probes and systematic effects"
+  authors: ["L.W.K. Goh", "A. Nouri-Zonoz", "S. Pamuk", "et al."]
+  collab_note: "Euclid Collaboration"
+  arxiv: "2510.09147"
+
+- year: 2025
+  title: "How to embed any likelihood into simulation-based inference: application to Planck and Stage IV galaxy surveys and dynamical dark energy"
+  authors: ["G. Franco Abellán", "N. Anau Montel", "O. Savchenko", "C. Weniger"]
+  journal: "Phys. Rev. D"
+  arxiv: "2507.22990"
+
+- year: 2025
+  title: "The CosmoVerse White Paper: addressing observational tensions in cosmology with systematics and fundamental physics"
+  authors: ["E. Di Valentino", "J. Levi Said", "A. Riess", "et al."]
+  collab_note: "203 authors"
+  journal: "Phys. Dark Univ."
+  arxiv: "2504.01669"
+
+- year: 2025
+  title: "Fast Gaussian marginal neural posterior estimation of cosmological initial conditions"
+  authors: ["O. Savchenko", "G. Franco Abellán", "F. List", "N. Anau Montel", "C. Weniger"]
+  journal: "MNRAS"
+  arxiv: "2502.03139"
+
+- year: 2024
+  title: "Mean-Field Simulation-Based Inference for Cosmological Initial Conditions"
+  authors: ["O. Savchenko", "F. List", "G. Franco Abellán", "N. Anau Montel", "C. Weniger"]
+  arxiv: "2410.15808"
+
+- year: 2024
+  title: "Effects of primordial fluctuations on relic neutrino simulations"
+  authors: ["F. Zimmer", "G. Franco Abellán", "S. Ando"]
+  journal: "JCAP"
+  arxiv: "2407.14582"
+
+- year: 2024
+  title: "Fast likelihood-free inference in the LSS Stage IV era"
+  authors: ["G. Franco Abellán", "G. Cañas Herrera", "M. Martinelli", "O. Savchenko", "D. Sciotti", "C. Weniger"]
+  journal: "JCAP"
+  arxiv: "2403.14750"
+
+- year: 2023
+  title: "Probing early modification of gravity with Planck, ACT and SPT"
+  authors: ["G. Franco Abellán", "M. Braglia", "M. Ballardini", "F. Finelli", "V. Poulin"]
+  journal: "JCAP"
+  arxiv: "2308.12345"
+
+- year: 2023
+  title: "Comparative analysis of interacting stepped dark radiation"
+  authors: ["N. Schöneberg", "G. Franco Abellán", "T. Simon", "et al."]
+  journal: "Phys. Rev. D"
+  arxiv: "2306.12469"
+
+- year: 2023
+  title: "Minihalos as probes of the inflationary spectrum: accurate boost factor calculation and new CMB constraints"
+  authors: ["G. Franco Abellán", "G. Facchinetti"]
+  journal: "JCAP"
+  arxiv: "2304.02996"
+
+- year: 2022
+  title: "Searching for new physics with CMB precision cosmology"
+  authors: ["G. Franco Abellán"]
+  note: "PhD thesis"
+
+- year: 2022
+  title: "A step in the right direction? Analyzing the Wess Zumino Dark Radiation solution to the Hubble tension"
+  authors: ["N. Schöneberg", "G. Franco Abellán"]
+  journal: "JCAP"
+  arxiv: "2206.11276"
+
+- year: 2022
+  title: "The QCD phase transition behind a PBH origin of LIGO/Virgo events?"
+  authors: ["J. Iguaz Juan", "P.D. Serpico", "G. Franco Abellán"]
+  journal: "JCAP"
+  arxiv: "2204.07027"
+
+- year: 2022
+  title: "Constraining decaying dark matter with BOSS data and the effective field theory of large-scale structures"
+  authors: ["T. Simon", "G. Franco Abellán", "P. Du", "V. Poulin", "Y. Tsai"]
+  journal: "Phys. Rev. D"
+  arxiv: "2203.07440"
+
+- year: 2022
+  title: "Cosmology intertwined: a review of the particle physics, astrophysics, and cosmology associated with the cosmological tensions and anomalies"
+  authors: ["E. Abdalla", "G. Franco Abellán", "A. Aboubrahim", "et al."]
+  collab_note: "203 authors"
+  journal: "JHEAp"
+  arxiv: "2203.06142"
+
+- year: 2022
+  title: "Hints of early dark energy in Planck, SPT, and ACT data: new physics or systematics?"
+  authors: ["T.L. Smith", "M. Lucca", "V. Poulin", "et al."]
+  journal: "Phys. Rev. D"
+  arxiv: "2202.09379"
+
+- year: 2021
+  title: "Improved cosmological constraints on the neutrino mass and lifetime"
+  authors: ["G. Franco Abellán", "Z. Chacko", "A. Dev", "P. Du", "V. Poulin", "Y. Tsai"]
+  journal: "JHEP"
+  arxiv: "2112.13862"
+
+- year: 2021
+  title: "The H0 Olympics: a fair ranking of proposed models"
+  authors: ["N. Schöneberg", "G. Franco Abellán", "A. Pérez Sánchez", "et al."]
+  journal: "Phys. Rept."
+  arxiv: "2107.10291"
+
+- year: 2021
+  title: "Linear cosmological constraints on two-body decaying dark matter scenarios and the S8 tension"
+  authors: ["G. Franco Abellán", "R. Murgia", "V. Poulin"]
+  journal: "Phys. Rev. D"
+  arxiv: "2102.12498"
+
+- year: 2020
+  title: "Early dark energy resolution to the Hubble tension in light of weak lensing surveys and lensing anomalies"
+  authors: ["R. Murgia", "G. Franco Abellán", "V. Poulin"]
+  journal: "Phys. Rev. D"
+  arxiv: "2009.10733"
+
+- year: 2020
+  title: "Implications of the S8 tension for decaying dark matter with warm decay products"
+  authors: ["G. Franco Abellán", "R. Murgia", "V. Poulin", "J. Lavalle"]
+  journal: "Phys. Rev. D"
+  arxiv: "2008.09615"

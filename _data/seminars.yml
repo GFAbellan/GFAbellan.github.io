@@ -1,0 +1,129 @@
+# Talks & seminars, newest first. Slides live under /assets/talks/.
+- year: 2025
+  kind: "Seminar"
+  venue: "Central European Institute for Cosmology and Fundamental Physics, CEICO"
+  place: "Prague, Czech Republic"
+  date: "May 21, 2025"
+  slides: "/assets/talks/Talk_CEICO.pdf"
+
+- year: 2024
+  kind: "Contributed talk"
+  venue: "COSMO'24"
+  place: "Kyoto, Japan"
+  date: "Oct 21–25, 2024"
+  slides: "/assets/talks/Talk_COSMO24.pdf"
+
+- year: 2024
+  kind: "Invited talk"
+  venue: "EDSU-Tools 2024"
+  place: "Île de Noirmoutier, France"
+  date: "Jun 2–7, 2024"
+  slides: "/assets/talks/Talk_EDSU-Tools.pdf"
+
+- year: 2024
+  kind: "Webinar"
+  venue: "Euclid Theory Working Group (WP17) informal meeting"
+  place: ""
+  date: "Apr 26, 2024"
+  slides: "/assets/talks/Talk_Euclid_WP17.pdf"
+
+- year: 2024
+  kind: "Seminar"
+  venue: "Centre de Physique Théorique"
+  place: "Marseille, France"
+  date: "Jan 12, 2024"
+  slides: "/assets/talks/Talk_CPT.pdf"
+
+- year: 2023
+  kind: "Seminar"
+  venue: "Université Libre de Bruxelles"
+  place: "Brussels, Belgium"
+  date: "Jun 8, 2023"
+  slides: "/assets/talks/Talk_ULB.pdf"
+
+- year: 2023
+  kind: "Contributed talk"
+  venue: "Third EuCAPT Annual Symposium"
+  place: "Geneva @ CERN, Switzerland"
+  date: "May 31–Jun 2, 2023"
+  slides: "/assets/talks/Talk_EuCAPT.pdf"
+  video: "https://cds.cern.ch/record/2860832"
+
+- year: 2023
+  kind: "Contributed talk"
+  venue: "PONT 2023"
+  place: "Avignon, France"
+  date: "May 2–5, 2023"
+  slides: "/assets/talks/Talk_PONT.pdf"
+
+- year: 2023
+  kind: "Webinar"
+  venue: "Instituto de Astrofísica de Canarias"
+  place: "Tenerife, Spain"
+  date: "Mar 24, 2023"
+  slides: "/assets/talks/Talk_IAC.pdf"
+
+- year: 2022
+  kind: "Webinar"
+  venue: "Physics Reports Seminar Series"
+  place: ""
+  date: "Nov 14, 2022"
+  video: "https://cassyni.com/events/YZp9s3poZZmqqV86HM2hoB"
+
+- year: 2022
+  kind: "Webinar"
+  venue: "University of the Western Cape"
+  place: "Cape Town, South Africa"
+  date: "Sep 16, 2022"
+  slides: "/assets/talks/Talk_UWC.pdf"
+
+- year: 2022
+  kind: "Invited talk"
+  venue: "Intriguing inconsistencies in the growth of structure over cosmic time"
+  place: "Sesto, Italy"
+  date: "Jul 25–29, 2022"
+  slides: "/assets/talks/Talk_Sesto.pdf"
+
+- year: 2022
+  kind: "Contributed talk"
+  venue: "56th Rencontres de Moriond (Cosmology session)"
+  place: "La Thuile, Italy"
+  date: "Jan 23–30, 2022"
+  slides: "/assets/talks/Talk_Moriond.pdf"
+
+- year: 2021
+  kind: "Webinar"
+  venue: "Max Planck Institute for Astrophysics"
+  place: "Garching, Germany"
+  date: "Dec 7, 2021"
+  slides: "/assets/talks/Talk_MPA.pdf"
+
+- year: 2021
+  kind: "Seminar"
+  venue: "Johns Hopkins University"
+  place: "Baltimore, US"
+  date: "Nov 15, 2021"
+  slides: "/assets/talks/Talk_SISSA_Hopkins.pdf"
+
+- year: 2021
+  kind: "Seminar"
+  venue: "Scuola Internazionale Superiore di Studi Avanzati"
+  place: "Trieste, Italy"
+  date: "Nov 4, 2021"
+  slides: "/assets/talks/Talk_SISSA_Hopkins.pdf"
+
+- year: 2021
+  kind: "Webinar"
+  venue: "Institut de Ciències del Cosmos"
+  place: "Barcelona, Spain"
+  date: "Oct 25, 2021"
+  slides: "/assets/talks/Talk_ICCUB.pdf"
+  video: "https://www.youtube.com/watch?v=7gofu8MRvTY&t=1067s"
+
+- year: 2021
+  kind: "Seminar"
+  venue: "Instituto de Física Teórica"
+  place: "Madrid, Spain"
+  date: "Oct 21, 2021"
+  slides: "/assets/talks/Talk_IFT.pdf"
+  video: "https://www.youtube.com/watch?v=T1bihFjbgUY&t=1s"

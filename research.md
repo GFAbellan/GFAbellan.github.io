@@ -1,6 +1,8 @@
 ---
 #title: Research
 layout: contact
+published: false
+sitemap: false
 #feature_text: |
   ## <span style="color:white"> Guillermo Franco Abellán</span>
 #feature_image: "https://cerncourier.com/wp-content/uploads/2022/03/CCMarApr22_CMB-hero-1024x321.jpg"

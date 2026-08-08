@@ -1,27 +1,35 @@
 ---
-#title: About me
-feature_text: |
-  ## <span style="color:white"> Guillermo Franco Abellán</span>
-feature_image: "https://wallpapers.com/images/hd/watchmen-doctor-manhattan-mars-nf6a1ao2jf8ju0vl.jpg"
-
-#feature_image: "https://wallpapercave.com/wp/wp4143159.jpg"
-#feature_image: "/assets/dr_manhattan.png"
-
-#excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, twerk it, push it."
-
-#Prior to that, I did my undergraduate in Physics at the University of Murcia, Spain.
+layout: onepage
 ---
 
-{% include figure.html image="/assets/Photo_crop.png" caption="" position="left" width="350" height="800" %}
+<section id="home">
+  <div class="hero-inner reveal">
+    <h1 class="hero-name">Guillermo Franco Abellán</h1>
+    <p class="hero-role">Cosmologist <span class="hero-role-sep">|</span> Postdoctoral researcher at <strong>IFIC, University of Valencia</strong></p>
+    <img class="hero-photo" src="{{ "/assets/Photo_crop.png" | relative_url }}" alt="Portrait of Guillermo Franco Abellán">
+    <p>I'm Guillermo, and I work as a theoretical physicist specialized in cosmology. I am a postdoc at the Institute of Corpuscular Physics (<a href="https://webific.ific.uv.es/web/en" class="text-link">IFIC</a>), in the University of Valencia. Before this, I was a postdoc at the <a href="https://www.grappa.amsterdam" class="text-link">GRAPPA</a> Institute, in the University of Amsterdam. Prior to that, I completed my PhD in Physics at the <a href="https://www.lupm.in2p3.fr/en/homepage/" class="text-link">LUPM</a> in the University of Montpellier, France, under the supervision of Dr. Vivian Poulin and Dr. Julien Lavalle.</p>
+    <p>As a researcher, I work on bridging the gap between theory and observations, with special interest in the phenomenology of beyond-ΛCDM models in cosmological observables. Specifically, I have spent a large part of my time thinking about cosmic tensions and their implications for new physics. More recently, I've also become interested in the use of machine learning techniques to optimize statistical inference in cosmology. In particular, I'm focusing on novel approaches in simulation-based inference that are significantly faster than traditional methods, and which will allow us to extract the maximum possible information about the universe from future surveys.</p>
+  </div>
 
+  <div class="tag-cloud reveal">
+    <span class="tag">Simulation-based inference</span>
+    <span class="tag">H0 tension</span>
+    <span class="tag">S8 tension</span>
+    <span class="tag">Decaying dark matter</span>
+    <span class="tag">Early dark energy</span>
+    <span class="tag">Neutrino cosmology</span>
+    <span class="tag">Cosmic neutrino background</span>
+    <span class="tag">Exotic energy injection</span>
+    <span class="tag">Primordial power spectrum</span>
+    <span class="tag">CMB</span>
+    <span class="tag">Large-scale structure</span>
+    <span class="tag">CLASS / MontePython</span>
+    <span class="tag">Euclid</span>
+    <span class="tag">Modified gravity</span>
+  </div>
+</section>
 
-<p style="line-height:28px;margin-right: -10px; margin-top: 20px;">
-I'm Guillermo, and I work as a theoretical physicist specialized in cosmology. I am a postdoc at the Institute of Corpuscular Physics (<a href="https://webific.ific.uv.es/web/en" style="color: #6600cc;" >IFIC</a>), in the University of Valencia. Before this, I was a postdoc at the <a href="https://www.grappa.amsterdam" style="color: #6600cc;" > GRAPPA</a> Institute, in the University of Amsterdam. Prior to that, I completed my PhD in Physics at the <a href="https://www.lupm.in2p3.fr/en/homepage/" style="color: #6600cc;" > LUPM</a> in the University of Montpellier, France, under the supervision of Dr. Vivian Poulin and Dr. Julien Lavalle.
-</p>
-<p></p>
-<p></p>
-<p style="line-height:28px;margin-right: -10px; margin-top: -45px;">
-
-As a researcher, I work on bridging the gap between theory and observations, with special interest in the phenomenology of beyond-ΛCDM models in cosmological observables. Specifically, I have spent a large part of my time thinking about cosmic tensions and their implications for new physics.
-More recently, I've also become interested in the use of machine learning techniques to optimize statistical inference in cosmology. In particular, I'm focusing on novel approaches in simulation-based inference that are significantly faster than traditional methods, and which will allow us to extract the maximum possible information about the universe from future surveys.
-</p>
+{% include section-publications.html %}
+{% include section-seminars.html %}
+{% include section-codes.html %}
+{% include section-contact.html %}

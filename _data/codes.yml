@@ -1,0 +1,15 @@
+# Public software. Placeholder entries — replace with the real project list.
+- name: "project-name"
+  description: "One or two lines on what it does and why it exists."
+  placeholder: true
+  github: "#"
+
+- name: "another-project"
+  description: "Short description of the tool, the problem it solves."
+  placeholder: true
+  github: "#"
+
+- name: "third-project"
+  description: "Short description of the tool, the problem it solves."
+  placeholder: true
+  github: "#"

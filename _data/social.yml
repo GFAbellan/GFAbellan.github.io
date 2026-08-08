@@ -1,0 +1,16 @@
+# Shown in the Contact section. icon must match an id in _includes/section-contact.html.
+- name: "GitHub"
+  url: "https://github.com/GFAbellan"
+  icon: "github"
+
+- name: "InspireHEP"
+  url: "https://inspirehep.net/authors/1890429"
+  icon: "inspire"
+
+- name: "LinkedIn"
+  url: "https://www.linkedin.com/in/guillermo-franco-abellan-06543b2a3/"
+  icon: "linkedin"
+
+- name: "X (Twitter)"
+  url: "https://twitter.com/GFAbellan"
+  icon: "x"

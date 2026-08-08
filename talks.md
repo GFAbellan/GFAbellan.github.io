@@ -1,6 +1,8 @@
 ---
 #title: Talks
 layout: contact
+published: false
+sitemap: false
 #excerpt: "talks index"
 aside: true
 ---

@@ -1,0 +1,26 @@
+<section id="seminars">
+  <div class="section-head reveal">
+    <span class="eyebrow">Talks &amp; seminars</span>
+    <h2>Seminars</h2>
+    <p>I have given over 30 conference talks and seminars at various institutions. A selection of my presentations can be found below, including slides and videos.</p>
+  </div>
+  <div class="wrap timeline reveal">
+    {% assign grouped = site.data.seminars | group_by: "year" %}
+    {% for group in grouped %}
+      <div class="tl-year">{{ group.name }}</div>
+      {% for talk in group.items %}
+        <div class="tl-item">
+          <div class="tl-kind">{{ talk.kind }}</div>
+          <div class="tl-venue">{{ talk.venue }}</div>
+          <div class="tl-place">{% if talk.place and talk.place != "" %}{{ talk.place }} &mdash; {% endif %}{{ talk.date }}</div>
+          {% if talk.slides or talk.video %}
+            <div class="tl-links">
+              {% if talk.slides %}<a href="{{ talk.slides | relative_url }}">Slides</a>{% endif %}
+              {% if talk.video %}<a href="{{ talk.video }}">Video</a>{% endif %}
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
