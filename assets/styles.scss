@@ -191,13 +191,16 @@ section { padding: #{"clamp(3.5rem, 7vw, 6rem)"} 1.5rem; scroll-margin-top: var(
   .hero-photo { float: none; width: 130px; height: 130px; margin: 0 0 1.4rem; shape-outside: none; }
 }
 
-.tag-cloud { max-width: var(--content-w); margin: 2.4rem auto 0; display: flex; flex-wrap: wrap; gap: 0.55rem; clear: both; }
+.tag-cloud { max-width: var(--content-w); margin: 2.4rem auto 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.55rem; clear: both; }
 .tag {
   font-family: var(--font-mono); font-size: 0.74rem; padding: 0.4rem 0.7rem;
   border: 1px solid var(--border); border-radius: 3px; color: var(--text-dim);
   transition: border-color .15s ease, color .15s ease;
 }
 .tag:hover { border-color: var(--accent); color: var(--accent); }
+.tag-xl { font-size: 1.05rem; padding: 0.55rem 0.95rem; color: var(--text); border-color: var(--border-strong); font-weight: 500; }
+.tag-l { font-size: 0.86rem; padding: 0.46rem 0.8rem; color: var(--text-dim); }
+.tag-s { font-size: 0.64rem; padding: 0.3rem 0.55rem; color: var(--text-faint); }
 
 /* ---------- Publications ---------- */
 .pub-year-group { display: grid; grid-template-columns: 84px 1fr; gap: 1.2rem; margin-bottom: 2.4rem; }

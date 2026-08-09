@@ -12,20 +12,22 @@ layout: onepage
   </div>
 
   <div class="tag-cloud reveal">
-    <span class="tag">Simulation-based inference</span>
-    <span class="tag">H0 tension</span>
-    <span class="tag">S8 tension</span>
+    <span class="tag tag-xl">Simulation-based inference</span>
+    <span class="tag tag-xl">Cosmic tensions</span>
     <span class="tag">Decaying dark matter</span>
     <span class="tag">Early dark energy</span>
     <span class="tag">Neutrino cosmology</span>
-    <span class="tag">Cosmic neutrino background</span>
-    <span class="tag">Exotic energy injection</span>
-    <span class="tag">Primordial power spectrum</span>
+    <span class="tag tag-s">Cosmic neutrino background</span>
+    <span class="tag tag-s">Exotic energy injection</span>
+    <span class="tag tag-s">Ultra-compact minihalos</span>
     <span class="tag">CMB</span>
     <span class="tag">Large-scale structure</span>
-    <span class="tag">CLASS / MontePython</span>
-    <span class="tag">Euclid</span>
+    <span class="tag tag-l">Euclid</span>
     <span class="tag">Modified gravity</span>
+    <span class="tag tag-l">Deep learning</span>
+    <span class="tag tag-l">Emulators</span>
+    <span class="tag tag-s">Gravitational waves</span>
+    <span class="tag">Statistical methods</span>
   </div>
 </section>
 
