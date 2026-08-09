@@ -12,22 +12,27 @@ layout: onepage
   </div>
 
   <div class="tag-cloud reveal">
-    <span class="tag tag-xl">Simulation-based inference</span>
-    <span class="tag tag-xl">Cosmic tensions</span>
-    <span class="tag">Decaying dark matter</span>
-    <span class="tag">Early dark energy</span>
-    <span class="tag">Neutrino cosmology</span>
-    <span class="tag tag-s">Cosmic neutrino background</span>
-    <span class="tag tag-s">Exotic energy injection</span>
-    <span class="tag tag-s">Ultra-compact minihalos</span>
-    <span class="tag">CMB</span>
-    <span class="tag">Large-scale structure</span>
-    <span class="tag tag-l">Euclid</span>
-    <span class="tag">Modified gravity</span>
-    <span class="tag tag-l">Deep learning</span>
-    <span class="tag tag-l">Emulators</span>
-    <span class="tag tag-s">Gravitational waves</span>
-    <span class="tag">Statistical methods</span>
+    <span class="tag tag-xl">Simulation-Based Inference</span>
+    <span class="tag tag-l">Decaying Dark Matter</span>
+    <span class="tag tag-l">Neutrino Cosmology</span>
+    <span class="tag tag-m">Euclid</span>
+    <span class="tag tag-l">Deep Learning</span>
+    <span class="tag tag-s">Cosmic IC Reconstruction</span>
+    <span class="tag tag-s">Cosmic Neutrino Background</span>
+    <span class="tag tag-xl">Cosmic Tensions</span>
+    <span class="tag tag-l">Statistical Methods</span>
+    <span class="tag tag-xl">CMB</span>
+    <span class="tag tag-m">Early Dark Energy</span>
+    <span class="tag tag-l">Boltzmann Solvers</span>
+    <span class="tag tag-s">Modified Gravity</span>
+    <span class="tag tag-xl">Large-Scale Structure</span>
+    <span class="tag tag-l">Cosmological Perturbations</span>
+    <span class="tag tag-s">Ultra-Compact Minihalos</span>
+    <span class="tag tag-s">Gravitational Waves</span>
+    <span class="tag tag-m">Interacting Dark Radiation</span>
+    <span class="tag tag-s">Primordial Black Holes</span>
+    <span class="tag tag-m">Emulators</span>
+    <span class="tag tag-s">Exotic Energy Injection</span>
   </div>
 </section>
 
