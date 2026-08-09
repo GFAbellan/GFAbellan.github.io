@@ -1,8 +1,7 @@
 <section id="publications">
   <div class="section-head reveal">
-    <span class="eyebrow">Selected work</span>
     <h2>Publications</h2>
-    <p>A list of my papers, newest first. Full record on <a href="https://inspirehep.net/authors/1890429" class="text-link">InspireHEP</a>.</p>
+    <p>Below you can find a list of all my publications, automatically generated from my <a href="https://inspirehep.net/authors/1890429" class="text-link">INSPIRE-HEP</a> profile.</p>
   </div>
 
   <div class="wrap-wide">
@@ -13,25 +12,38 @@
         <div class="pub-list">
           {% for pub in group.items %}
             <div class="pub-item">
-              <div class="pub-title">
-                {% if pub.arxiv %}
-                  <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.title }}</a>
-                {% else %}
-                  {{ pub.title }}
-                {% endif %}
-                {% if pub.note %}<span class="pub-note">({{ pub.note }})</span>{% endif %}
-              </div>
+              <div class="pub-title">{{ pub.title }}</div>
               <div class="pub-authors">
                 {% for author in pub.authors %}
                   {% if author == "G. Franco Abellán" %}<b>{{ author }}</b>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}
                 {% endfor %}
                 {% if pub.collab_note %}<span class="pub-collab">({{ pub.collab_note }})</span>{% endif %}
               </div>
-              {% if pub.journal or pub.arxiv %}
+              {% if pub.journal or pub.note or pub.arxiv or pub.citations %}
                 <div class="pub-tags">
-                  {% if pub.journal %}<span class="pub-tag">{{ pub.journal }}</span>{% endif %}
-                  {% if pub.arxiv %}<a class="pub-tag" href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a>{% endif %}
+                  {% if pub.note %}
+                    {% if pub.note_url %}
+                      <a class="pub-tag pub-tag--thesis" href="{{ pub.note_url }}">{{ pub.note }}</a>
+                    {% else %}
+                      <span class="pub-tag pub-tag--thesis">{{ pub.note }}</span>
+                    {% endif %}
+                  {% elsif pub.journal %}
+                    {% if pub.journal_url %}
+                      <a class="pub-tag pub-tag--journal" data-journal="{{ pub.journal }}" href="{{ pub.journal_url }}">{{ pub.journal }}</a>
+                    {% elsif pub.doi %}
+                      <a class="pub-tag pub-tag--journal" data-journal="{{ pub.journal }}" href="https://doi.org/{{ pub.doi }}">{{ pub.journal }}</a>
+                    {% else %}
+                      <span class="pub-tag pub-tag--journal" data-journal="{{ pub.journal }}">{{ pub.journal }}</span>
+                    {% endif %}
+                  {% endif %}
+                  {% if pub.arxiv %}<a class="pub-tag pub-tag--arxiv" href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a>{% endif %}
+                  {% if pub.citations %}
+                    <span class="pub-tag pub-tag--citations">{{ pub.citations }} citation{% if pub.citations != 1 %}s{% endif %}</span>
+                  {% endif %}
                 </div>
+              {% endif %}
+              {% if pub.categories %}
+                <div class="pub-categories">{{ pub.categories | join: " " }}</div>
               {% endif %}
             </div>
           {% endfor %}

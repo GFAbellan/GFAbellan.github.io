@@ -208,13 +208,16 @@ section { padding: #{"clamp(3.5rem, 7vw, 6rem)"} 1.5rem; scroll-margin-top: var(
 .tag-s { font-size: 0.64rem; color: var(--text-faint); }
 
 /* ---------- Publications ---------- */
-.pub-year-group { display: grid; grid-template-columns: 84px 1fr; gap: 1.2rem; margin-bottom: 2.4rem; }
+.pub-year-group {
+  display: grid; grid-template-columns: 84px 1fr; gap: 1.2rem;
+  margin-bottom: 2.4rem; padding-top: 1.6rem; border-top: 1px solid var(--border);
+}
+.pub-year-group:first-child { padding-top: 0; border-top: none; }
 .pub-year { font-family: var(--font-mono); font-size: 1.3rem; color: var(--text-faint); padding-top: 0.15rem; }
 .pub-list { display: flex; flex-direction: column; gap: 1.5rem; }
 .pub-item { border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; }
 .pub-item:last-child { border-bottom: none; padding-bottom: 0; }
 .pub-title { font-family: var(--font-display); font-size: 1.08rem; font-weight: 600; line-height: 1.4; margin-bottom: 0.4rem; }
-.pub-title a:hover { color: var(--accent); }
 .pub-note { color: var(--text-faint); font-family: var(--font-mono); font-size: 0.7rem; font-weight: 400; }
 .pub-authors { font-size: 0.86rem; color: var(--text-dim); margin-bottom: 0.6rem; }
 .pub-authors b { color: var(--text); font-weight: 600; }
@@ -226,9 +229,68 @@ section { padding: #{"clamp(3.5rem, 7vw, 6rem)"} 1.5rem; scroll-margin-top: var(
 }
 a.pub-tag:hover { color: var(--accent); border-color: var(--accent); }
 
+.pub-categories {
+  margin-top: 0.4rem; font-family: var(--font-mono); font-size: 0.76rem;
+  letter-spacing: 0.02em; word-spacing: 0.6em; color: var(--text-faint);
+}
+
+/* arXiv badge: arXiv's own brand maroon, fixed across both themes. */
+.pub-tag--arxiv {
+  background: #8a1010; border: none; font-weight: 700; letter-spacing: 0.02em; color: #ffffff;
+}
+
+/* Citations badge: neutral gray, distinct from journal/arXiv/thesis hues. */
+.pub-tag--citations {
+  background: #5a5a5a; border: none; font-weight: 700; letter-spacing: 0.02em; color: #ffffff;
+}
+
+/* PhD thesis badge: light purple, distinct from journal/arXiv/citation hues. */
+.pub-tag--thesis {
+  background: #8f5ae8; border: none; font-weight: 700; letter-spacing: 0.02em; color: #ffffff;
+}
+a.pub-tag--thesis:hover { color: #ffffff; border-color: transparent; opacity: 0.82; }
+a.pub-tag--arxiv:hover { color: #ffffff; border-color: transparent; opacity: 0.82; }
+
+/* Journal badges: fixed per-journal color, distinct from the site accent. */
+.pub-tag--journal {
+  border: none; font-weight: 700; letter-spacing: 0.02em; color: #ffffff;
+}
+a.pub-tag--journal:hover { color: #ffffff; border-color: transparent; opacity: 0.82; }
+
+.pub-tag--journal[data-journal="PRD"]              { background: #2a78d6; }
+.pub-tag--journal[data-journal="JCAP"]             { background: #1baf7a; }
+.pub-tag--journal[data-journal="Phys. Rept."]      { background: #eb6834; }
+.pub-tag--journal[data-journal="Phys. Dark Univ."] { background: #eda100; }
+.pub-tag--journal[data-journal="NeurIPS"]          { background: #e87ba4; }
+.pub-tag--journal[data-journal="MNRAS"]            { background: #008300; }
+.pub-tag--journal[data-journal="JHEAp"]            { background: #4a3aa7; }
+.pub-tag--journal[data-journal="JHEP"]             { background: #e34948; }
+
+:root[data-theme="dark"] {
+  .pub-tag--journal[data-journal="PRD"]              { background: #3987e5; }
+  .pub-tag--journal[data-journal="JCAP"]             { background: #199e70; }
+  .pub-tag--journal[data-journal="Phys. Rept."]      { background: #d95926; }
+  .pub-tag--journal[data-journal="Phys. Dark Univ."] { background: #c98500; }
+  .pub-tag--journal[data-journal="NeurIPS"]          { background: #d55181; }
+  .pub-tag--journal[data-journal="MNRAS"]            { background: #008300; }
+  .pub-tag--journal[data-journal="JHEAp"]            { background: #9085e9; }
+  .pub-tag--journal[data-journal="JHEP"]             { background: #e66767; }
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    .pub-tag--journal[data-journal="PRD"]              { background: #3987e5; }
+    .pub-tag--journal[data-journal="JCAP"]             { background: #199e70; }
+    .pub-tag--journal[data-journal="Phys. Rept."]      { background: #d95926; }
+    .pub-tag--journal[data-journal="Phys. Dark Univ."] { background: #c98500; }
+    .pub-tag--journal[data-journal="NeurIPS"]          { background: #d55181; }
+    .pub-tag--journal[data-journal="MNRAS"]            { background: #008300; }
+    .pub-tag--journal[data-journal="JHEAp"]            { background: #9085e9; }
+    .pub-tag--journal[data-journal="JHEP"]             { background: #e66767; }
+  }
+}
+
 @media (max-width: 640px) {
   .pub-year-group { grid-template-columns: 1fr; gap: 0.5rem; }
-  .pub-year { padding-top: 0.6rem; border-top: 1px solid var(--border-strong); margin-top: 0.4rem; }
 }
 
 /* ---------- Seminars timeline ---------- */
