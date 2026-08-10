@@ -2,6 +2,12 @@
   <div class="section-head reveal">
     <h2>Publications</h2>
     <p>Below you can find a list of all my publications, automatically generated from my <a href="https://inspirehep.net/authors/1890429" class="text-link">INSPIRE-HEP</a> profile.</p>
+    {% if site.data.stats %}
+      <div class="pub-stats">
+        <span>Number of papers: <strong>{{ site.data.stats.paper_count }}</strong></span>
+        <span>h-index: <strong>{{ site.data.stats.h_index }}</strong></span>
+      </div>
+    {% endif %}
   </div>
 
   <div class="wrap-wide">
