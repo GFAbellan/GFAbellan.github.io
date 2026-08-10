@@ -12,27 +12,27 @@ layout: onepage
   </div>
 
   <div class="tag-cloud reveal">
-    <span class="tag tag-xl">Simulation-Based Inference</span>
-    <span class="tag tag-l">Decaying Dark Matter</span>
-    <span class="tag tag-l">Neutrino Cosmology</span>
-    <span class="tag tag-m">Euclid</span>
-    <span class="tag tag-l">Deep Learning</span>
-    <span class="tag tag-s">Cosmic IC Reconstruction</span>
-    <span class="tag tag-s">Cosmic Neutrino Background</span>
-    <span class="tag tag-xl">Cosmic Tensions</span>
-    <span class="tag tag-l">Statistical Methods</span>
-    <span class="tag tag-xl">CMB</span>
-    <span class="tag tag-m">Early Dark Energy</span>
-    <span class="tag tag-l">Boltzmann Solvers</span>
-    <span class="tag tag-s">Modified Gravity</span>
-    <span class="tag tag-xl">Large-Scale Structure</span>
-    <span class="tag tag-l">Cosmological Perturbations</span>
-    <span class="tag tag-s">Ultra-Compact Minihalos</span>
-    <span class="tag tag-s">Gravitational Waves</span>
-    <span class="tag tag-m">Interacting Dark Radiation</span>
-    <span class="tag tag-s">Primordial Black Holes</span>
-    <span class="tag tag-m">Emulators</span>
-    <span class="tag tag-s">Exotic Energy Injection</span>
+    <span class="tag tag-xl tag-c1">Simulation-Based Inference</span>
+    <span class="tag tag-l tag-c2">Decaying Dark Matter</span>
+    <span class="tag tag-l tag-c3">Neutrino Cosmology</span>
+    <span class="tag tag-m tag-c4">Euclid</span>
+    <span class="tag tag-l tag-c5">Deep Learning</span>
+    <span class="tag tag-s tag-c6">Cosmic IC Reconstruction</span>
+    <span class="tag tag-s tag-c1">Cosmic Neutrino Background</span>
+    <span class="tag tag-xl tag-c2">Cosmic Tensions</span>
+    <span class="tag tag-l tag-c3">Statistical Methods</span>
+    <span class="tag tag-xl tag-c4">CMB</span>
+    <span class="tag tag-m tag-c5">Early Dark Energy</span>
+    <span class="tag tag-l tag-c6">Boltzmann Solvers</span>
+    <span class="tag tag-s tag-c1">Modified Gravity</span>
+    <span class="tag tag-xl tag-c2">Large-Scale Structure</span>
+    <span class="tag tag-l tag-c3">Cosmological Perturbations</span>
+    <span class="tag tag-s tag-c4">Ultra-Compact Minihalos</span>
+    <span class="tag tag-s tag-c5">Gravitational Waves</span>
+    <span class="tag tag-m tag-c6">Interacting Dark Radiation</span>
+    <span class="tag tag-s tag-c1">Primordial Black Holes</span>
+    <span class="tag tag-m tag-c2">Emulators</span>
+    <span class="tag tag-s tag-c3">Exotic Energy Injection</span>
   </div>
 </section>
 

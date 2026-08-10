@@ -212,6 +212,32 @@ section { padding: #{"clamp(3.5rem, 7vw, 6rem)"} 1.5rem; scroll-margin-top: var(
 .tag-m { font-size: 0.78rem; color: var(--text-dim); }
 .tag-s { font-size: 0.64rem; color: var(--text-faint); }
 
+/* Blue-green tones for the keyword cloud, cycled across the tags. */
+.tag-c1 { color: #0a7568; }
+.tag-c2 { color: #1a6fb0; }
+.tag-c3 { color: #0e7550; }
+.tag-c4 { color: #2e55b8; }
+.tag-c5 { color: #087478; }
+.tag-c6 { color: #1d7a68; }
+:root[data-theme="dark"] {
+  .tag-c1 { color: #5ee6d1; }
+  .tag-c2 { color: #6bc9f2; }
+  .tag-c3 { color: #5fe0a0; }
+  .tag-c4 { color: #7fa8f5; }
+  .tag-c5 { color: #4fd6c4; }
+  .tag-c6 { color: #8fe0d0; }
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    .tag-c1 { color: #5ee6d1; }
+    .tag-c2 { color: #6bc9f2; }
+    .tag-c3 { color: #5fe0a0; }
+    .tag-c4 { color: #7fa8f5; }
+    .tag-c5 { color: #4fd6c4; }
+    .tag-c6 { color: #8fe0d0; }
+  }
+}
+
 /* ---------- Publications ---------- */
 .pub-year-group {
   display: grid; grid-template-columns: 84px 1fr; gap: 1.2rem;
