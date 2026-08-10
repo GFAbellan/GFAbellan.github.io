@@ -7,6 +7,10 @@
   url: "https://inspirehep.net/authors/1890429"
   icon: "inspire"
 
+- name: "ORCID"
+  url: "https://orcid.org/0000-0001-9742-5408"
+  icon: "orcid"
+
 - name: "LinkedIn"
   url: "https://www.linkedin.com/in/guillermo-franco-abellan-06543b2a3/"
   icon: "linkedin"

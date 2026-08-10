@@ -1,37 +1,49 @@
 <section id="contact">
   <div class="section-head reveal">
     <h2>Contact</h2>
+    <p>Feel free to get in touch, I'm always happy to talk about science and explore new collaborations.</p>
   </div>
   <div class="contact-grid reveal">
     <div class="contact-block">
       <h3>Email</h3>
       <a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-      <h3 class="contact-block-spaced">Office</h3>
-      <p>510, IATA building</p>
-      <p>IFIC, CSIC &ndash; Universitat de València</p>
-      <p>Parc Científic UV, c/ Catedrático José Beltrán 2</p>
-      <p>E-46980 Paterna (València), Spain</p>
-    </div>
-    <div class="contact-block">
+      <h3 class="contact-block-spaced">Social</h3>
       <ul class="social-list">
         {% for link in site.data.social %}
           <li>
             <a href="{{ link.url }}">
               {% case link.icon %}
                 {% when "github" %}
-                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.35 4.68-4.58 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"></path></svg>
+                  <svg class="social-icon" data-icon="github" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.35 4.68-4.58 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"></path></svg>
                 {% when "linkedin" %}
-                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.25h4V23h-4V8.25zM8.5 8.25h3.83v2.01h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V23h-4v-6.75c0-1.61-.03-3.68-2.24-3.68-2.25 0-2.6 1.76-2.6 3.57V23h-4V8.25z"></path></svg>
+                  <svg class="social-icon" data-icon="linkedin" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.25h4V23h-4V8.25zM8.5 8.25h3.83v2.01h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V23h-4v-6.75c0-1.61-.03-3.68-2.24-3.68-2.25 0-2.6 1.76-2.6 3.57V23h-4V8.25z"></path></svg>
                 {% when "x" %}
-                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-7-6.3 7H1.3l8.1-9.3L1 2h7.2l5 6.6L18.9 2zm-1.2 18h1.7L7.4 4H5.6l12.1 16z"></path></svg>
+                  <svg class="social-icon" data-icon="x" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-7-6.3 7H1.3l8.1-9.3L1 2h7.2l5 6.6L18.9 2zm-1.2 18h1.7L7.4 4H5.6l12.1 16z"></path></svg>
                 {% when "inspire" %}
-                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 4h16v2H4zM4 8h16v12H4zm3 3v6h2v-6zm4 0v6h2v-6zm4 0v6h2v-6z"></path></svg>
+                  <svg class="social-icon" data-icon="inspire" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 4h16v2H4zM4 8h16v12H4zm3 3v6h2v-6zm4 0v6h2v-6zm4 0v6h2v-6z"></path></svg>
+                {% when "orcid" %}
+                  <svg class="social-icon" data-icon="orcid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10.2"></circle>
+                    <circle cx="8.2" cy="7.7" r="0.9" fill="currentColor" stroke="none"></circle>
+                    <line x1="8.2" y1="10.3" x2="8.2" y2="16.4"></line>
+                    <path d="M11.6 10.3 H13.6 A3.05 3.05 0 0 1 13.6 16.4 H11.6 Z"></path>
+                  </svg>
               {% endcase %}
               {{ link.name }}
             </a>
           </li>
         {% endfor %}
       </ul>
+    </div>
+    <div class="contact-block">
+      <h3>Office</h3>
+      <p>510, IATA building</p>
+      <p>IFIC, CSIC &ndash; Universitat de València</p>
+      <p>Parc Científic UV, c/ Catedrático José Beltrán 2</p>
+      <p>E-46980 Paterna (València), Spain</p>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3077.9807842504165!2d-0.4270280183099726!3d39.51492338633143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604510e5507397%3A0xa54b2e3504013514!2sInstituto%20de%20F%C3%ADsica%20Corpuscular%20(IFIC)!5e0!3m2!1ses!2ses!4v1763398998977!5m2!1ses!2ses" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="IFIC, CSIC – Universitat de València location"></iframe>
+      </div>
     </div>
   </div>
 </section>

@@ -102,7 +102,7 @@ a { color: inherit; text-decoration: none; }
 }
 .brand {
   font-family: var(--font-mono); font-weight: 700; letter-spacing: 0.05em;
-  color: var(--accent); font-size: 0.95rem;
+  color: var(--accent); font-size: 1.15rem;
 }
 .nav-links { display: flex; align-items: center; gap: 1.9rem; list-style: none; margin: 0; padding: 0; }
 .nav-links a {
@@ -325,15 +325,34 @@ a.pub-tag--journal:hover { color: #ffffff; border-color: transparent; opacity: 0
 .code-card.placeholder h3, .code-card.placeholder p, .code-card.placeholder a { color: var(--text-faint); }
 
 /* ---------- Contact ---------- */
-.contact-grid { max-width: var(--wide-w); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+.contact-grid { max-width: 620px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.contact-block:first-child { transform: translateX(-1.5rem); }
 .contact-block h3 { font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-faint); margin-bottom: 0.9rem; font-weight: 500; }
 .contact-block-spaced { margin-top: 1.6rem; }
 .contact-block p { font-size: 0.95rem; margin-bottom: 0.3rem; }
 .contact-block a.email { color: var(--accent); font-size: 1.05rem; }
+.map-embed {
+  margin-top: 1.2rem; border: 1px solid var(--border); border-radius: 6px;
+  overflow: hidden; line-height: 0;
+}
+.map-embed iframe { display: block; width: 100%; }
 .social-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.7rem; }
 .social-list a { display: flex; align-items: center; gap: 0.7rem; font-size: 0.95rem; color: var(--text-dim); transition: color .15s ease; }
 .social-list a:hover { color: var(--accent); }
 .social-list svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+/* Brand colors, fixed regardless of hover (X and GitHub have no real brand
+   hue -- their own guidelines call for a plain black/white mark, so those
+   two keep following the page's ink color instead of being forced). */
+.social-icon[data-icon="linkedin"] { color: #0a66c2; }
+.social-icon[data-icon="orcid"]    { color: #a6ce39; }
+.social-icon[data-icon="inspire"]  { color: #1a5fb4; }
+.social-icon[data-icon="github"]   { color: #181717; }
+:root[data-theme="dark"] .social-icon[data-icon="github"] { color: #ffffff; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .social-icon[data-icon="github"] { color: #ffffff; }
+}
+
 @media (max-width: 640px) { .contact-grid { grid-template-columns: 1fr; gap: 2.2rem; } }
 
 /* ---------- Footer ---------- */
