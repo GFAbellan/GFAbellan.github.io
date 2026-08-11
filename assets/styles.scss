@@ -324,7 +324,32 @@ a.pub-tag--journal:hover { color: #ffffff; border-color: transparent; opacity: 0
   .pub-year-group { grid-template-columns: 1fr; gap: 0.5rem; }
 }
 
-/* ---------- Seminars timeline ---------- */
+/* ---------- Seminars ---------- */
+.seminars-layout {
+  max-width: 880px; margin: 0 auto; transform: translateX(2rem);
+  display: grid; grid-template-columns: 0.85fr 0.8fr; gap: 2.5rem; align-items: start;
+}
+.seminars-map-wrap { position: sticky; top: calc(var(--nav-h) + 1.5rem); }
+#seminars-map {
+  width: 100%; height: 360px; border-radius: 6px;
+  border: 1px solid var(--border); background: var(--bg-elev);
+}
+.seminars-layout .timeline { transform: translateX(-1.5rem); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: var(--bg-elev); color: var(--text); box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+.leaflet-popup-content { font-family: var(--font-body); font-size: 0.86rem; line-height: 1.5; }
+.leaflet-popup-content strong { font-family: var(--font-display); font-weight: 600; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--text-faint); }
+.leaflet-bar a { background: var(--bg-elev); color: var(--text); border-bottom: 1px solid var(--border); }
+.leaflet-bar a:hover { background: var(--bg-elev-2); }
+@media (max-width: 900px) {
+  .seminars-layout { grid-template-columns: 1fr; transform: none; }
+  .seminars-map-wrap { position: static; }
+  #seminars-map { height: 320px; }
+  .seminars-layout .timeline { transform: none; }
+}
+
 .timeline { position: relative; padding-left: 1.8rem; }
 .timeline::before { content: ""; position: absolute; left: 4px; top: 6px; bottom: 6px; width: 1px; background: var(--border-strong); }
 .tl-year { font-family: var(--font-mono); color: var(--accent); font-size: 0.85rem; letter-spacing: 0.08em; margin: 2rem 0 0.9rem; position: relative; }
@@ -336,6 +361,7 @@ a.pub-tag--journal:hover { color: #ffffff; border-color: transparent; opacity: 0
 }
 .tl-kind { font-family: var(--font-mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); }
 .tl-venue { font-family: var(--font-display); font-size: 1rem; font-weight: 600; margin: 0.2rem 0; }
+.tl-venue a:hover { color: var(--accent); }
 .tl-place { font-size: 0.86rem; color: var(--text-dim); }
 .tl-links { margin-top: 0.4rem; display: flex; gap: 0.6rem; }
 .tl-links a { font-family: var(--font-mono); font-size: 0.72rem; color: var(--accent); border-bottom: 1px solid transparent; }

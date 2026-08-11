@@ -1,24 +1,73 @@
 # Talks & seminars, newest first. Slides live under /assets/talks/.
+# lat/lon (geocoded via OpenStreetMap Nominatim) drive the map on the
+# Seminars section; entries without a physical place (pure webinars)
+# just omit them and don't get a marker.
+- year: 2026
+  kind: "Invited talk"
+  venue: "PASCOS 2026"
+  venue_url: "https://indico.global/event/14705/page/5225-sheffield"
+  place: "Sheffield, England"
+  date: "Jun 22–26, 2026"
+  slides: "/assets/talks/Talk_PASCOS.pdf"
+  lat: 53.3807
+  lon: -1.4702
+
+- year: 2026
+  kind: "Splinter Talk"
+  venue: "Theory Splinter Session, Euclid Consortium Meeting 2026"
+  venue_url: "https://euclid2026.ice.csic.es/"
+  place: "Barcelona, Spain"
+  date: "May 26–29, 2026"
+  lat: 41.3826
+  lon: 2.1771
+
+- year: 2025
+  kind: "Invited talk"
+  venue: "Ptolemy International Workshop"
+  venue_url: "https://indico.imapp.ru.nl/event/310/overview"
+  place: "Nijmegen, The Netherlands"
+  date: "Jul 1–2, 2025"
+  lat: 51.8475
+  lon: 5.8638
+
+- year: 2025
+  kind: "Contributed talk"
+  venue: "European AI for Fundamental Physics, EuCAIFCon 2025"
+  venue_url: "https://agenda.infn.it/event/43565/"
+  place: "Cagliari, Italy"
+  date: "Jun 16–20, 2025"
+  lat: 39.2172
+  lon: 9.1133
+
 - year: 2025
   kind: "Seminar"
-  venue: "Central European Institute for Cosmology and Fundamental Physics, CEICO"
+  venue: "CEICO"
+  venue_url: "https://ceico.cz/seminars/gravity-2017"
   place: "Prague, Czech Republic"
   date: "May 21, 2025"
   slides: "/assets/talks/Talk_CEICO.pdf"
+  lat: 50.0875
+  lon: 14.4213
 
 - year: 2024
   kind: "Contributed talk"
   venue: "COSMO'24"
+  venue_url: "https://sites.google.com/view/cosmo2024/home?authuser=0"
   place: "Kyoto, Japan"
   date: "Oct 21–25, 2024"
   slides: "/assets/talks/Talk_COSMO24.pdf"
+  lat: 35.0116
+  lon: 135.7681
 
 - year: 2024
   kind: "Invited talk"
   venue: "EDSU-Tools 2024"
+  venue_url: "https://indico.cern.ch/event/1267450/overview"
   place: "Île de Noirmoutier, France"
   date: "Jun 2–7, 2024"
   slides: "/assets/talks/Talk_EDSU-Tools.pdf"
+  lat: 46.9612
+  lon: -2.2007
 
 - year: 2024
   kind: "Webinar"
@@ -33,6 +82,17 @@
   place: "Marseille, France"
   date: "Jan 12, 2024"
   slides: "/assets/talks/Talk_CPT.pdf"
+  lat: 43.2964
+  lon: 5.3778
+
+- year: 2023
+  kind: "Contributed talk"
+  venue: "Atelier Théorie, Univers et Gravitation, TUG 2023"
+  venue_url: "https://indico.in2p3.fr/event/29276/overview"
+  place: "Paris, France"
+  date: "Oct 10–12, 2023"
+  lat: 48.8589
+  lon: 2.3200
 
 - year: 2023
   kind: "Seminar"
@@ -40,21 +100,28 @@
   place: "Brussels, Belgium"
   date: "Jun 8, 2023"
   slides: "/assets/talks/Talk_ULB.pdf"
+  lat: 50.8467
+  lon: 4.3525
 
 - year: 2023
   kind: "Contributed talk"
   venue: "Third EuCAPT Annual Symposium"
+  venue_url: "https://indico.cern.ch/event/1218730/overview"
   place: "Geneva @ CERN, Switzerland"
   date: "May 31–Jun 2, 2023"
-  slides: "/assets/talks/Talk_EuCAPT.pdf"
   video: "https://cds.cern.ch/record/2860832"
+  lat: 46.2334
+  lon: 6.0555
 
 - year: 2023
   kind: "Contributed talk"
   venue: "PONT 2023"
+  venue_url: "https://indico.cern.ch/event/1166693/overview"
   place: "Avignon, France"
   date: "May 2–5, 2023"
   slides: "/assets/talks/Talk_PONT.pdf"
+  lat: 43.9492
+  lon: 4.8059
 
 - year: 2023
   kind: "Webinar"
@@ -62,6 +129,8 @@
   place: "Tenerife, Spain"
   date: "Mar 24, 2023"
   slides: "/assets/talks/Talk_IAC.pdf"
+  lat: 28.2936
+  lon: -16.6214
 
 - year: 2022
   kind: "Webinar"
@@ -76,27 +145,71 @@
   place: "Cape Town, South Africa"
   date: "Sep 16, 2022"
   slides: "/assets/talks/Talk_UWC.pdf"
+  lat: -33.9288
+  lon: 18.4172
 
 - year: 2022
   kind: "Invited talk"
   venue: "Intriguing inconsistencies in the growth of structure over cosmic time"
+  venue_url: "https://www.sexten-cfa.eu/event/intriguing-inconsistencies-in-the-growth-of-structure-over-cosmic-time/"
   place: "Sesto, Italy"
   date: "Jul 25–29, 2022"
   slides: "/assets/talks/Talk_Sesto.pdf"
+  lat: 46.6720
+  lon: 12.3871
+
+- year: 2022
+  kind: "Seminar"
+  venue: "Laboratoire de Physique des 2 Infinis Irène Joliot-Curie, IJCLab"
+  place: "Orsay, France"
+  date: "Jun 20, 2022"
+  lat: 48.6992
+  lon: 2.1875
+
+- year: 2022
+  kind: "Contributed talk"
+  venue: "News from the dark (Episode 7: On Dark Matter Subhalos)"
+  venue_url: "https://indico.in2p3.fr/event/26200/overview"
+  place: "Montpellier, France"
+  date: "Jun 15–17, 2022"
+  lat: 43.6112
+  lon: 3.8767
 
 - year: 2022
   kind: "Contributed talk"
   venue: "56th Rencontres de Moriond (Cosmology session)"
+  venue_url: "https://moriond.in2p3.fr/2022/Cosmology/"
   place: "La Thuile, Italy"
   date: "Jan 23–30, 2022"
   slides: "/assets/talks/Talk_Moriond.pdf"
+  lat: 45.6971
+  lon: 6.9183
 
 - year: 2021
   kind: "Webinar"
   venue: "Max Planck Institute for Astrophysics"
+  venue_url: "https://wwwmpa.mpa-garching.mpg.de/cosmo_seminars/index_2021.html"
   place: "Garching, Germany"
   date: "Dec 7, 2021"
   slides: "/assets/talks/Talk_MPA.pdf"
+  lat: 48.2514
+  lon: 11.6510
+
+- year: 2021
+  kind: "Seminar"
+  venue: "Stony Brook University"
+  place: "Long Island, US"
+  date: "Nov 22, 2021"
+  lat: 40.9085
+  lon: -73.1325
+
+- year: 2021
+  kind: "Seminar"
+  venue: "University of Maryland"
+  place: "Washington D.C., US"
+  date: "Nov 18, 2021"
+  lat: 38.8951
+  lon: -77.0364
 
 - year: 2021
   kind: "Seminar"
@@ -104,26 +217,32 @@
   place: "Baltimore, US"
   date: "Nov 15, 2021"
   slides: "/assets/talks/Talk_SISSA_Hopkins.pdf"
+  lat: 39.2909
+  lon: -76.6108
 
 - year: 2021
   kind: "Seminar"
-  venue: "Scuola Internazionale Superiore di Studi Avanzati"
+  venue: "SISSA"
   place: "Trieste, Italy"
   date: "Nov 4, 2021"
-  slides: "/assets/talks/Talk_SISSA_Hopkins.pdf"
+  lat: 45.6496
+  lon: 13.7773
 
 - year: 2021
   kind: "Webinar"
   venue: "Institut de Ciències del Cosmos"
+  venue_url: "https://icc.ub.edu/event/cosmological-tensions-shedding-light-dark-sector"
   place: "Barcelona, Spain"
   date: "Oct 25, 2021"
-  slides: "/assets/talks/Talk_ICCUB.pdf"
   video: "https://www.youtube.com/watch?v=7gofu8MRvTY&t=1067s"
+  lat: 41.3826
+  lon: 2.1771
 
 - year: 2021
   kind: "Seminar"
   venue: "Instituto de Física Teórica"
   place: "Madrid, Spain"
   date: "Oct 21, 2021"
-  slides: "/assets/talks/Talk_IFT.pdf"
   video: "https://www.youtube.com/watch?v=T1bihFjbgUY&t=1s"
+  lat: 40.4168
+  lon: -3.7035

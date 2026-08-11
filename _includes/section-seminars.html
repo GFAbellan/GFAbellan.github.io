@@ -1,25 +1,62 @@
 <section id="seminars">
   <div class="section-head reveal">
     <h2>Seminars</h2>
-    <p>I have given over 30 conference talks and seminars at various institutions. A selection of my presentations can be found below, including slides and videos.</p>
+    <p>I have given more than 30 conference talks and seminars at various institutions worldwide. Below you can find some of my presentations.</p>
   </div>
-  <div class="wrap timeline reveal">
-    {% assign grouped = site.data.seminars | group_by: "year" %}
-    {% for group in grouped %}
-      <div class="tl-year">{{ group.name }}</div>
-      {% for talk in group.items %}
-        <div class="tl-item">
-          <div class="tl-kind">{{ talk.kind }}</div>
-          <div class="tl-venue">{{ talk.venue }}</div>
-          <div class="tl-place">{% if talk.place and talk.place != "" %}{{ talk.place }} &mdash; {% endif %}{{ talk.date }}</div>
-          {% if talk.slides or talk.video %}
-            <div class="tl-links">
-              {% if talk.slides %}<a href="{{ talk.slides | relative_url }}">Slides</a>{% endif %}
-              {% if talk.video %}<a href="{{ talk.video }}">Video</a>{% endif %}
-            </div>
-          {% endif %}
-        </div>
+
+  <div class="seminars-layout reveal">
+    <div class="seminars-map-wrap">
+      <div id="seminars-map" role="img" aria-label="Map of cities where I have given talks and seminars"></div>
+    </div>
+
+    <div class="timeline">
+      {% assign grouped = site.data.seminars | group_by: "year" %}
+      {% for group in grouped %}
+        <div class="tl-year">{{ group.name }}</div>
+        {% for talk in group.items %}
+          <div class="tl-item">
+            <div class="tl-kind">{{ talk.kind }}</div>
+            <div class="tl-venue">{% if talk.venue_url %}<a href="{{ talk.venue_url }}">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}</div>
+            <div class="tl-place">{% if talk.place and talk.place != "" %}{{ talk.place }} &mdash; {% endif %}{{ talk.date }}</div>
+            {% if talk.slides or talk.video %}
+              <div class="tl-links">
+                {% if talk.slides %}<a href="{{ talk.slides | relative_url }}">Slides</a>{% endif %}
+                {% if talk.video %}<a href="{{ talk.video }}">Video</a>{% endif %}
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
+    </div>
   </div>
 </section>
+
+{% assign located_talks = site.data.seminars | where_exp: "t", "t.lat" | where_exp: "t", "t.kind != 'Webinar'" %}
+<script type="application/json" id="seminar-locations">{{ located_talks | jsonify }}</script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  (function () {
+    var mapEl = document.getElementById('seminars-map');
+    if (!mapEl || typeof L === 'undefined') return;
+
+    var talks = JSON.parse(document.getElementById('seminar-locations').textContent);
+    var TILE_URL = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+    var TILE_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
+
+    var EUROPE_CENTER = [47, 10];
+    var EUROPE_ZOOM = 4;
+
+    var map = L.map(mapEl, { scrollWheelZoom: false, minZoom: 1 }).setView(EUROPE_CENTER, EUROPE_ZOOM);
+    L.tileLayer(TILE_URL, {
+      attribution: TILE_ATTRIBUTION,
+      maxZoom: 18,
+    }).addTo(map);
+
+    talks.forEach(function (talk) {
+      var popup = '<strong>' + talk.venue + '</strong><br>' + talk.place + '<br>' + talk.date;
+      L.marker([talk.lat, talk.lon]).bindPopup(popup).addTo(map);
+    });
+  })();
+</script>
