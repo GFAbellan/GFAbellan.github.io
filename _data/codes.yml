@@ -1,15 +1,31 @@
 # Public software. Placeholder entries — replace with the real project list.
-- name: "project-name"
-  description: "One or two lines on what it does and why it exists."
-  placeholder: true
-  github: "#"
+# category must be "CLASS modifications" or "SBI tools".
+- name: "Sireeni"
+  description: "A SBI package to reconstruct cosmological and astrophysical parameters from Einstein Telescope GW catalogs."
+  github: "https://github.com/GFAbellan/Sireeni"
+  category: "SBI tools"
 
-- name: "another-project"
-  description: "Short description of the tool, the problem it solves."
-  placeholder: true
-  github: "#"
+- name: "SBI-aux-obs"
+  description: "Auxiliary-observable trick to build an effective SBI simulator from any explicit likelihood, illustrated on Planck 2018 data."
+  github: "https://github.com/GFAbellan/SBI-aux-obs"
+  category: "SBI tools"
 
-- name: "third-project"
-  description: "Short description of the tool, the problem it solves."
-  placeholder: true
-  github: "#"
+- name: "Swyft-LSS"
+  description: "A SBI code to perform cosmological forecasts from Stage IV photometric galaxy surveys like Euclid."
+  github: "https://github.com/GFAbellan/Swyft-LSS"
+  category: "SBI tools"
+
+- name: "CLASSpp_nuDecay"
+  description: "A CLASS version to model the effects of late-time neutrino decays into dark radiation and lighter neutrinos."
+  github: "https://github.com/GFAbellan/CLASSpp_nuDecay"
+  category: "CLASS modifications"
+
+- name: "ExoCLASS"
+  description: "An ExoCLASS extension for testing exotic energy injection from: 1) DM annihilations in ultra-compact mini-halos, and 2) accreting PBHs with extended mass functions."
+  github: "https://github.com/GFAbellan/ExoCLASS"
+  category: "CLASS modifications"
+
+- name: "class_clumpy"
+  description: "A CLASS version for placing constraints on small-scale baryon clumping."
+  github: "https://github.com/GFAbellan/class_clumpy"
+  category: "CLASS modifications"

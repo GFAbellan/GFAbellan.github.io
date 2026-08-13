@@ -1,18 +1,29 @@
 <section id="codes">
   <div class="section-head reveal">
     <h2>Codes</h2>
-    <p>Public software and tools I've built or contributed to.</p>
+    <p>I am a strong advocate of open science. All the software and tools I've built are in public GitHub repositories. Below you can find some of them.</p>
   </div>
-  <div class="code-grid reveal">
-    {% for project in site.data.codes %}
-      <div class="code-card{% if project.placeholder %} placeholder{% endif %}">
-        <h3>{{ project.name }}</h3>
-        <p>{{ project.description }}</p>
-        <div class="code-links">
-          {% if project.github %}<a href="{{ project.github }}">GitHub &rarr;</a>{% endif %}
-          {% if project.docs %}<a href="{{ project.docs }}">Docs &rarr;</a>{% endif %}
-        </div>
+  {% assign code_groups = site.data.codes | group_by: "category" %}
+  {% for group in code_groups %}
+    <div class="code-subsection reveal">
+      <h3 class="code-subhead">{{ group.name }}</h3>
+      {% if group.name == "SBI tools" %}
+        <p class="code-subtext">In recent years I've focused on building new packages and methods in simulation-based inference (SBI), allowing to efficiently extract cosmological parameters from different observations.</p>
+      {% elsif group.name == "CLASS modifications" %}
+        <p class="code-subtext">I've also spent a lot of time building new versions of the public Boltzmann solver CLASS, enabling the computation of cosmological observables for various exotic scenarios.</p>
+      {% endif %}
+      <div class="code-grid">
+        {% for project in group.items %}
+          <div class="code-card{% if project.placeholder %} placeholder{% endif %}">
+            <h3>{{ project.name }}</h3>
+            <p>{{ project.description }}</p>
+            <div class="code-links">
+              {% if project.github %}<a href="{{ project.github }}">GitHub &rarr;</a>{% endif %}
+              {% if project.docs %}<a href="{{ project.docs }}">Docs &rarr;</a>{% endif %}
+            </div>
+          </div>
+        {% endfor %}
       </div>
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 </section>

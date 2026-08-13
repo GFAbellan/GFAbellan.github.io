@@ -174,6 +174,7 @@ def main():
         "# hand-edit, changes will be overwritten on the next scheduled run.\n"
         f"paper_count: {len(non_thesis_hits)}\n"
         f"h_index: {compute_h_index(citation_counts)}\n"
+        f"total_citations: {sum(citation_counts)}\n"
     )
     STATS_PATH.write_text(stats_content, encoding="utf-8")
     print(f"Wrote stats to {STATS_PATH}")
