@@ -193,6 +193,7 @@ section { padding: #{"clamp(3.5rem, 7vw, 6rem)"} 1.5rem; scroll-margin-top: var(
   shape-margin: 0.9rem;
 }
 .hero-inner p { font-size: 1rem; }
+.hero-outro { margin-top: 2.4rem; }
 
 @media (max-width: 640px) {
   .hero-photo { float: none; width: 130px; height: 130px; margin: 0 0 1.4rem; shape-outside: none; }
