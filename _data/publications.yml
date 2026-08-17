@@ -51,7 +51,7 @@
   doi: "10.1016/j.dark.2025.101965"
   arxiv: "2504.01669"
   categories: ["astro-ph.CO", "gr-qc", "hep-ph"]
-  citations: 590
+  citations: 592
 
 - year: 2025
   title: "Fast Gaussian marginal neural posterior estimation of cosmological initial conditions"
@@ -148,7 +148,7 @@
   doi: "10.1103/PhysRevD.106.023516"
   arxiv: "2203.07440"
   categories: ["astro-ph.CO", "hep-ph"]
-  citations: 85
+  citations: 86
 
 - year: 2022
   title: "Cosmology intertwined: A review of the particle physics, astrophysics, and cosmology associated with the cosmological tensions and anomalies"
@@ -158,7 +158,7 @@
   doi: "10.1016/j.jheap.2022.04.002"
   arxiv: "2203.06142"
   categories: ["astro-ph.CO", "hep-ph"]
-  citations: 1598
+  citations: 1601
 
 - year: 2022
   title: "Hints of early dark energy in Planck, SPT, and ACT data: New physics or systematics?"
@@ -167,7 +167,7 @@
   doi: "10.1103/PhysRevD.106.043526"
   arxiv: "2202.09379"
   categories: ["astro-ph.CO", "hep-ph"]
-  citations: 125
+  citations: 126
 
 - year: 2021
   title: "Improved cosmological constraints on the neutrino mass and lifetime"
@@ -176,7 +176,7 @@
   doi: "10.1007/JHEP08(2022)076"
   arxiv: "2112.13862"
   categories: ["hep-ph", "astro-ph.CO"]
-  citations: 73
+  citations: 74
 
 - year: 2021
   title: "The H<sub>0</sub> Olympics: A fair ranking of proposed models"
@@ -185,7 +185,7 @@
   doi: "10.1016/j.physrep.2022.07.001"
   arxiv: "2107.10291"
   categories: ["astro-ph.CO", "hep-ph", "hep-th"]
-  citations: 666
+  citations: 667
 
 - year: 2021
   title: "Linear cosmological constraints on two-body decaying dark matter scenarios and the S<sub>8</sub> tension"
@@ -203,7 +203,7 @@
   doi: "10.1103/PhysRevD.103.063502"
   arxiv: "2009.10733"
   categories: ["astro-ph.CO", "hep-ph"]
-  citations: 157
+  citations: 158
 
 - year: 2020
   title: "Implications of the S<sub>8</sub> tension for decaying dark matter with warm decay products"
