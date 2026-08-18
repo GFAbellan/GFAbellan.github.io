@@ -405,6 +405,21 @@ a.pub-tag--journal:hover { color: #ffffff; border-color: transparent; opacity: 0
 .code-card.placeholder { border-style: dashed; opacity: 0.6; }
 .code-card.placeholder h3, .code-card.placeholder p, .code-card.placeholder a { color: var(--text-faint); }
 
+/* ---------- CV ---------- */
+#cv .section-head { text-align: center; }
+#cv .section-head p { margin-left: auto; margin-right: auto; }
+.cv-embed {
+  max-width: var(--wide-w); margin: 0 auto;
+  height: 82vh; min-height: 500px; max-height: 1000px;
+  border: 1px solid var(--border); border-radius: 6px; overflow: hidden;
+  background: var(--bg-elev);
+}
+.cv-embed iframe { display: block; width: 100%; height: 100%; border: none; }
+
+@media (max-width: 640px) {
+  .cv-embed { display: none; }
+}
+
 /* ---------- Contact ---------- */
 #contact .section-head { text-align: center; }
 #contact .section-head p { margin-left: auto; margin-right: auto; }

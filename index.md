@@ -44,4 +44,5 @@ layout: onepage
 {% include section-publications.html %}
 {% include section-seminars.html %}
 {% include section-codes.html %}
+{% include section-cv.html %}
 {% include section-contact.html %}

@@ -91,7 +91,7 @@ navigation_header:
 - title: Codes
   url: "#codes"
 - title: CV
-  url: /cv/CV_guillermo.pdf
+  url: "#cv"
 - title: Contact
   url: "#contact"
 
