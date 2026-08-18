@@ -20,6 +20,14 @@
     <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
     <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#0b0e14' }}"/>
 
+    <script>
+      (function () {
+        var t = 'dark';
+        try { t = localStorage.getItem('theme') || 'dark'; } catch (e) {}
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+
     {% if site.css_inline == true %}
       {% include site-styles.html %}
     {% else %}

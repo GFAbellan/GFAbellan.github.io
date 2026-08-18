@@ -6,7 +6,7 @@
   {% assign code_groups = site.data.codes | group_by: "category" %}
   {% for group in code_groups %}
     <div class="code-subsection reveal">
-      <h3 class="code-subhead">{{ group.name }}</h3>
+      <h3 class="code-subhead{% if group.name == "SBI tools" %} code-subhead--sbi{% endif %}">{{ group.name }}</h3>
       {% if group.name == "SBI tools" %}
         <p class="code-subtext">In recent years I've focused on building new packages and methods in simulation-based inference (SBI), allowing to efficiently extract cosmological parameters from different observations.</p>
       {% elsif group.name == "CLASS modifications" %}

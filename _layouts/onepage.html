@@ -48,8 +48,7 @@ layout: default
 
     var stored = null;
     try { stored = localStorage.getItem('theme'); } catch (e) {}
-    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    applyTheme(stored || (prefersDark ? 'dark' : 'light'));
+    applyTheme(stored || 'dark');
 
     toggle.addEventListener('click', function () {
       var cur = root.getAttribute('data-theme');

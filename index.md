@@ -37,7 +37,7 @@ layout: onepage
   </div>
 
   <div class="hero-inner hero-outro reveal">
-    <p>Outside of research, I enjoy watching films, trying out new recipes, and spending quality time with friends. On my <a href="https://letterboxd.com/gfabellan/" class="text-link">Letterboxd</a> profile you can find a list of my most recently watched movies.</p>
+    <p>Outside of research, I love watching films, cooking new recipes, and catching up with friends. Take a look at my <a href="https://letterboxd.com/gfabellan/" class="text-link">Letterboxd</a> profile to see what movies I've been watching lately.</p>
   </div>
 </section>
 
