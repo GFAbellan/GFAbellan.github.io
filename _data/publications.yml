@@ -51,7 +51,7 @@
   doi: "10.1016/j.dark.2025.101965"
   arxiv: "2504.01669"
   categories: ["astro-ph.CO", "gr-qc", "hep-ph"]
-  citations: 592
+  citations: 602
 
 - year: 2025
   title: "Fast Gaussian marginal neural posterior estimation of cosmological initial conditions"
@@ -158,7 +158,7 @@
   doi: "10.1016/j.jheap.2022.04.002"
   arxiv: "2203.06142"
   categories: ["astro-ph.CO", "hep-ph"]
-  citations: 1601
+  citations: 1610
 
 - year: 2022
   title: "Hints of early dark energy in Planck, SPT, and ACT data: New physics or systematics?"
@@ -203,7 +203,7 @@
   doi: "10.1103/PhysRevD.103.063502"
   arxiv: "2009.10733"
   categories: ["astro-ph.CO", "hep-ph"]
-  citations: 158
+  citations: 159
 
 - year: 2020
   title: "Implications of the S<sub>8</sub> tension for decaying dark matter with warm decay products"
