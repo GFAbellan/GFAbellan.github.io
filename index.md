@@ -1,5 +1,6 @@
 ---
-layout: onepage
+layout: page
+permalink: /
 ---
 
 <section id="home">
@@ -37,12 +38,6 @@ layout: onepage
   </div>
 
   <div class="hero-inner hero-outro reveal">
-    <p>Outside of research, I love watching all kinds of films, cooking new recipes, and listening to progressive rock. Take a look at my <a href="https://letterboxd.com/gfabellan/" class="text-link">Letterboxd</a> profile to see what movies I've been watching lately.</p>
+    <p>Outside of research, I love watching all kinds of films, cooking new recipes, and listening to prog rock. Take a look at my <a href="https://letterboxd.com/gfabellan/" class="text-link">Letterboxd</a> profile to see what movies I've been watching lately.</p>
   </div>
 </section>
-
-{% include section-publications.html %}
-{% include section-seminars.html %}
-{% include section-codes.html %}
-{% include section-cv.html %}
-{% include section-contact.html %}

@@ -42,8 +42,8 @@
     if (!mapEl || typeof L === 'undefined') return;
 
     var talks = JSON.parse(document.getElementById('seminar-locations').textContent);
-    var TILE_URL = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
-    var TILE_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
+    var TILE_URL = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}';
+    var TILE_ATTRIBUTION = '&copy; <a href="https://www.esri.com/">Esri</a>';
 
     var EUROPE_CENTER = [48, 3];
     var EUROPE_ZOOM = 4;

@@ -4,17 +4,13 @@ layout: default
 
 <nav id="topnav">
   <div class="nav-inner">
-    <a href="#home" class="brand">GFA</a>
+    <a href="{{ "/" | relative_url }}" class="brand">GFA</a>
     <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links" id="nav-links">
       {% for item in site.navigation_header %}
-        {% if item.url contains '#' %}
-          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% else %}
-          <li><a href="{{ item.url | relative_url }}" class="external">{{ item.title }}</a></li>
-        {% endif %}
+        <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a></li>
       {% endfor %}
     </ul>
     <button id="theme-toggle" aria-label="Toggle color theme">
@@ -64,19 +60,6 @@ layout: default
     navLinks.querySelectorAll('a').forEach(function (a) {
       a.addEventListener('click', function () { navLinks.classList.remove('open'); });
     });
-
-    var sections = document.querySelectorAll('main section[id]');
-    var links = document.querySelectorAll('.nav-links a[href^="#"]');
-    var spy = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (e.isIntersecting) {
-          links.forEach(function (l) {
-            l.classList.toggle('active', l.getAttribute('href') === '#' + e.target.id);
-          });
-        }
-      });
-    }, { rootMargin: '-40% 0px -55% 0px' });
-    sections.forEach(function (s) { spy.observe(s); });
 
     var reveal = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {

@@ -4,6 +4,15 @@
 # just omit them and don't get a marker.
 - year: 2026
   kind: "Invited talk"
+  venue: "Neutrino Oscillation Workshop, NOW 2026"
+  venue_url: "https://home.ba.infn.it/~now/now2026/"
+  place: "Otranto, Italy"
+  date: "Aug 31–Sep 6, 2026"
+  lat: 40.1457
+  lon: 18.4908
+
+- year: 2026
+  kind: "Invited talk"
   venue: "PASCOS 2026"
   venue_url: "https://indico.global/event/14705/page/5225-sheffield"
   place: "Sheffield, England"

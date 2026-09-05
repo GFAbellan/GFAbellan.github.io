@@ -83,17 +83,17 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 # Anchors (#...) scroll within the one-page site; other urls link out (e.g. the CV pdf).
 navigation_header:
 - title: Home
-  url: "#home"
+  url: /
 - title: Publications
-  url: "#publications"
+  url: /publications/
 - title: Seminars
-  url: "#seminars"
+  url: /seminars/
 - title: Codes
-  url: "#codes"
+  url: /codes/
 - title: CV
-  url: "#cv"
+  url: /cv/
 - title: Contact
-  url: "#contact"
+  url: /contact/
 
 google_site_verification: googlea74707a642609db1.html
 
