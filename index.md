@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <section id="home">
-  <div class="hero-inner reveal">
+  <div class="hero-inner">
     <h1 class="hero-name">Guillermo Franco Abellán</h1>
     <p class="hero-role">Cosmologist <span class="hero-role-sep">|</span> Postdoctoral researcher at <strong>IFIC, University of Valencia</strong></p>
     <img class="hero-photo" src="{{ "/assets/Photo_crop.png" | relative_url }}" alt="Portrait of Guillermo Franco Abellán">
@@ -13,7 +13,7 @@ permalink: /
     <p>The following word cloud gives a snapshot of my main research themes.</p>
   </div>
 
-  <div class="tag-cloud reveal">
+  <div class="tag-cloud">
     <span class="tag tag-xl tag-c1">Simulation-Based Inference</span>
     <span class="tag tag-l tag-c2">Decaying Dark Matter</span>
     <span class="tag tag-l tag-c3">Neutrino Cosmology</span>
@@ -37,7 +37,7 @@ permalink: /
     <span class="tag tag-s tag-c3">Exotic Energy Injection</span>
   </div>
 
-  <div class="hero-inner hero-outro reveal">
+  <div class="hero-inner hero-outro">
     <p>Outside of research, I love watching all kinds of films, cooking new recipes, and listening to prog rock. Take a look at my <a href="https://letterboxd.com/gfabellan/" class="text-link">Letterboxd</a> profile to see what movies I've been watching lately.</p>
   </div>
 </section>

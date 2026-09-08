@@ -1,5 +1,5 @@
 <section id="publications">
-  <div class="section-head reveal">
+  <div class="section-head">
     <h2>Publications</h2>
     <p>Below you can find a list of all my publications, automatically generated from my <a href="https://inspirehep.net/authors/1890429" class="text-link">INSPIRE-HEP</a> profile.</p>
     {% if site.data.stats %}
@@ -14,7 +14,7 @@
   <div class="wrap-wide">
     {% assign grouped = site.data.publications | group_by: "year" %}
     {% for group in grouped %}
-      <div class="pub-year-group reveal">
+      <div class="pub-year-group">
         <div class="pub-year">{{ group.name }}</div>
         <div class="pub-list">
           {% for pub in group.items %}
