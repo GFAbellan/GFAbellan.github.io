@@ -86,9 +86,9 @@ navigation_header:
   url: /
 - title: Publications
   url: /publications/
-- title: Seminars
+- title: Talks
   url: /seminars/
-- title: Codes
+- title: Software
   url: /codes/
 - title: CV
   url: /cv/
