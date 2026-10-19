@@ -34,12 +34,14 @@
   citations: 2
 
 - year: 2025
-  title: "Euclid preparation. XCVIII. Cosmology Likelihood for Observables in Euclid (CLOE). 5: Extensions beyond the standard modelling of theoretical probes and systematic effects"
+  title: "Euclid preparation - XCVIII. Cosmology Likelihood for Observables in Euclid (CLOE). 5. Extensions beyond the standard modelling of theoretical probes and systematic effects"
   authors: ["L. Goh", "A. Nouri-Zonoz", "S. Pamuk", "et al."]
   collab_note: "303 authors"
+  journal: "Astron. Astrophys."
+  doi: "10.1051/0004-6361/202556859"
   arxiv: "2510.09147"
   categories: ["astro-ph.CO"]
-  citations: 2
+  citations: 3
 
 - year: 2025
   title: "How to embed any likelihood into simulation-based inference: Application to Planck and stage IV galaxy surveys and dynamical dark energy"
@@ -58,7 +60,7 @@
   doi: "10.1016/j.dark.2025.101965"
   arxiv: "2504.01669"
   categories: ["astro-ph.CO", "gr-qc", "hep-ph"]
-  citations: 681
+  citations: 690
 
 - year: 2025
   title: "Fast Gaussian marginal neural posterior estimation of cosmological initial conditions"
@@ -67,7 +69,7 @@
   doi: "10.1093/mnras/stag977"
   arxiv: "2502.03139"
   categories: ["astro-ph.CO", "astro-ph.IM", "cs.LG"]
-  citations: 10
+  citations: 11
 
 - year: 2024
   title: "Mean-Field Simulation-Based Inference for Cosmological Initial Conditions"
@@ -76,7 +78,7 @@
   journal_url: "https://neurips.cc/virtual/2024/100110"
   arxiv: "2410.15808"
   categories: ["astro-ph.CO", "astro-ph.IM", "cs.LG"]
-  citations: 7
+  citations: 8
 
 - year: 2024
   title: "Effects of primordial fluctuations on relic neutrino simulations"
@@ -94,7 +96,7 @@
   doi: "10.1088/1475-7516/2024/11/057"
   arxiv: "2403.14750"
   categories: ["astro-ph.CO", "astro-ph.IM"]
-  citations: 20
+  citations: 21
 
 - year: 2023
   title: "Probing early modification of gravity with Planck, ACT and SPT"
@@ -146,7 +148,7 @@
   doi: "10.1088/1475-7516/2022/07/009"
   arxiv: "2204.07027"
   categories: ["astro-ph.CO"]
-  citations: 33
+  citations: 34
 
 - year: 2022
   title: "Constraining decaying dark matter with BOSS data and the effective field theory of large-scale structures"
@@ -165,7 +167,7 @@
   doi: "10.1016/j.jheap.2022.04.002"
   arxiv: "2203.06142"
   categories: ["astro-ph.CO", "hep-ph"]
-  citations: 1661
+  citations: 1666
 
 - year: 2022
   title: "Hints of early dark energy in Planck, SPT, and ACT data: New physics or systematics?"
@@ -192,7 +194,7 @@
   doi: "10.1016/j.physrep.2022.07.001"
   arxiv: "2107.10291"
   categories: ["astro-ph.CO", "hep-ph", "hep-th"]
-  citations: 684
+  citations: 689
 
 - year: 2021
   title: "Linear cosmological constraints on two-body decaying dark matter scenarios and the S<sub>8</sub> tension"
