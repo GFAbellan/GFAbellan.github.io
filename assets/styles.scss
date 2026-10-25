@@ -2,6 +2,7 @@
 title: false
 styles: true
 ---
+{% assign font_set = site.fonts.sets[site.fonts.active] %}
 
 :root {
   color-scheme: dark;
@@ -20,9 +21,10 @@ styles: true
   --code-green: #4ee08a;
   --code-green-dim: rgba(78, 224, 138, 0.35);
   --code-green-soft: rgba(78, 224, 138, 0.07);
-  --font-display: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
+  /* Font stacks come from the active set in _config.yml (fonts.active). */
+  --font-display: {{ font_set.display }};
+  --font-body: {{ font_set.body }};
+  --font-mono: {{ font_set.mono }};
   --content-w: 740px;
   --wide-w: 880px;
   --nav-h: 64px;

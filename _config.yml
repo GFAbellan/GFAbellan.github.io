@@ -98,8 +98,21 @@ navigation_header:
 google_site_verification: googlea74707a642609db1.html
 
 # Load custom fonts from fonts.google.com etc
+# `active` picks one of the sets below: roboto (as on flanusse.net) or plex (the original fonts).
 fonts:
+  active: roboto
   preconnect_urls:
     - https://fonts.gstatic.com
-  font_urls:
-    - https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap
+  sets:
+    plex:
+      font_urls:
+        - https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap
+      display: "'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      body: "'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      mono: "'IBM Plex Mono', ui-monospace, 'SF Mono', 'Cascadia Code', 'Roboto Mono', Consolas, monospace"
+    roboto:
+      font_urls:
+        - https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap
+      display: "Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+      body: "Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+      mono: "'Roboto Mono', ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, monospace"
