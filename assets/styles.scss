@@ -301,6 +301,7 @@ a.pub-tag--journal:hover { color: #ffffff; border-color: transparent; opacity: 0
 .pub-tag--journal[data-journal="MNRAS"]            { background: #008300; }
 .pub-tag--journal[data-journal="JHEAp"]            { background: #4a3aa7; }
 .pub-tag--journal[data-journal="JHEP"]             { background: #e34948; }
+.pub-tag--journal[data-journal="A&A"]              { background: #0f8fb0; }
 
 :root[data-theme="dark"] {
   .pub-tag--journal[data-journal="PRD"]              { background: #3987e5; }
@@ -311,6 +312,7 @@ a.pub-tag--journal:hover { color: #ffffff; border-color: transparent; opacity: 0
   .pub-tag--journal[data-journal="MNRAS"]            { background: #008300; }
   .pub-tag--journal[data-journal="JHEAp"]            { background: #9085e9; }
   .pub-tag--journal[data-journal="JHEP"]             { background: #e66767; }
+  .pub-tag--journal[data-journal="A&A"]              { background: #1ba2c4; }
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -322,6 +324,7 @@ a.pub-tag--journal:hover { color: #ffffff; border-color: transparent; opacity: 0
     .pub-tag--journal[data-journal="MNRAS"]            { background: #008300; }
     .pub-tag--journal[data-journal="JHEAp"]            { background: #9085e9; }
     .pub-tag--journal[data-journal="JHEP"]             { background: #e66767; }
+    .pub-tag--journal[data-journal="A&A"]              { background: #1ba2c4; }
   }
 }
 

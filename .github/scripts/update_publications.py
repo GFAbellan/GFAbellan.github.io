@@ -85,6 +85,7 @@ def yaml_str(value):
 JOURNAL_ABBREVIATIONS = {
     # InspireHEP's journal_title is sometimes an unusually long form, or
     # longer than we want on a small colored badge; prefer the short form.
+    "Astron. Astrophys.": "A&A",
     "Mon. Not. Roy. Astron. Soc.": "MNRAS",
     "Phys. Rev. D": "PRD",
 }
