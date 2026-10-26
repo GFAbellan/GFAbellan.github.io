@@ -60,7 +60,7 @@
   doi: "10.1016/j.dark.2025.101965"
   arxiv: "2504.01669"
   categories: ["astro-ph.CO", "gr-qc", "hep-ph"]
-  citations: 690
+  citations: 702
 
 - year: 2025
   title: "Fast Gaussian marginal neural posterior estimation of cosmological initial conditions"
@@ -139,7 +139,7 @@
   doi: "10.1088/1475-7516/2022/12/001"
   arxiv: "2206.11276"
   categories: ["astro-ph.CO", "hep-ph"]
-  citations: 55
+  citations: 56
 
 - year: 2022
   title: "The QCD phase transition behind a PBH origin of LIGO/Virgo events?"
@@ -148,7 +148,7 @@
   doi: "10.1088/1475-7516/2022/07/009"
   arxiv: "2204.07027"
   categories: ["astro-ph.CO"]
-  citations: 34
+  citations: 35
 
 - year: 2022
   title: "Constraining decaying dark matter with BOSS data and the effective field theory of large-scale structures"
@@ -167,7 +167,7 @@
   doi: "10.1016/j.jheap.2022.04.002"
   arxiv: "2203.06142"
   categories: ["astro-ph.CO", "hep-ph"]
-  citations: 1666
+  citations: 1675
 
 - year: 2022
   title: "Hints of early dark energy in Planck, SPT, and ACT data: New physics or systematics?"
@@ -185,7 +185,7 @@
   doi: "10.1007/JHEP08(2022)076"
   arxiv: "2112.13862"
   categories: ["hep-ph", "astro-ph.CO"]
-  citations: 75
+  citations: 76
 
 - year: 2021
   title: "The H<sub>0</sub> Olympics: A fair ranking of proposed models"
@@ -194,7 +194,7 @@
   doi: "10.1016/j.physrep.2022.07.001"
   arxiv: "2107.10291"
   categories: ["astro-ph.CO", "hep-ph", "hep-th"]
-  citations: 689
+  citations: 694
 
 - year: 2021
   title: "Linear cosmological constraints on two-body decaying dark matter scenarios and the S<sub>8</sub> tension"
